@@ -1,6 +1,7 @@
 html {
   text-align: center;
   font-family: Helvetica, sans-serif;
+  vertical-align: middle;
 }
 
 .banner {
@@ -17,15 +18,20 @@ nav ul {
   font-size: 18px;
   list-style: none;
   color: white;
+  padding-right: 25px;
 }
 a {
   color: white;
   font-size: 18px;
   font-weight: bold;
 }
+nav {
+  justify-content: center;
+}
 
-li {
+.banner li {
   padding: 5px;
+  justify-content: center;
 }
 
 .designBanner {
@@ -35,4 +41,41 @@ li {
   font-size: 23px;
   font-weight: bold;
   color: white;
+}
+
+p {
+  font-size: 14px;
+}
+
+.process h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.footer li {
+  display: inline-block;
+  text-align: left;
+  color: white;
+  font-size: 8px;
+}
+
+.footer li a {
+  color: white;
+  font-weight: lighter;
+}
+
+.footer ul {
+  text-align: left;
+  color: white;
+}
+.footer p {
+  float: left;
+  display: inline;
+  color: white;
+  font-size: 11px;
+}
+
+.footer {
+  background-color: dimgray;
+  font-size: 11px;
 }
